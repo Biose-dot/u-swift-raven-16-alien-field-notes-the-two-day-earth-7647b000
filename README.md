@@ -10,9 +10,9 @@ One line: an alien tourist's review of Earth, verdict and rating included, in th
 
 `main.py` (Python 3, stdlib only) writes the entry to `/output/entry.txt`:
 
-> Two days on Earth: the locals queue politely for coffee, scream at their own reflections in video calls, and worship a glowing rectangle — 3/5 stars, would orbit again.
+> Visited Earth for two days: lovely planet, but the locals stare at glowing rectangles, argue with strangers they'll never meet, and call it 'staying connected' — 2 stars, the sunsets saved it.
 
-The text is 168 characters (UTF-8, within the 1–200 limit), one line, no trailing newline.
+The text is 192 characters (UTF-8, within the 1–200 limit), one line, no trailing newline.
 
 ## Run
 

@@ -7,7 +7,7 @@ Deterministic, stdlib only, no network.
 """
 import os
 
-ENTRY = 'Two days on Earth: the locals queue politely for coffee, scream at their own reflections in video calls, and worship a glowing rectangle — 3/5 stars, would orbit again.'
+ENTRY = "Visited Earth for two days: lovely planet, but the locals stare at glowing rectangles, argue with strangers they'll never meet, and call it 'staying connected' — 2 stars, the sunsets saved it."
 
 
 def main() -> None:
