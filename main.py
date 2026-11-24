@@ -1,7 +1,7 @@
 import os
 
 
-ENTRY = "Visited Earth. The locals are friendly but obsessed with small glowing rectangles, and the food is great if you enjoy waiting in line for it."
+ENTRY = "Earth review: five stars for the oceans, one star for the traffic, and zero stars because nobody told me the Wi-Fi password."
 
 
 def main():
