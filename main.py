@@ -1,13 +1,15 @@
 import os
 
-TEXT = 'Earth review: the food is great, the gravity is rude, and the locals argue with rectangles for eight hours a day. Three stars — would orbit again.'
+
+ENTRY = "Visited Earth. The locals are friendly but obsessed with small glowing rectangles, and the food is great if you enjoy waiting in line for it."
+
 
 def main():
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
     os.makedirs(out_dir, exist_ok=True)
-    path = os.path.join(out_dir, "entry.txt")
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(TEXT)
+    with open(os.path.join(out_dir, "entry.txt"), "w", encoding="utf-8") as f:
+        f.write(ENTRY)
+
 
 if __name__ == "__main__":
     main()
