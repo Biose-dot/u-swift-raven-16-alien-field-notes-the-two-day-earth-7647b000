@@ -1,6 +1,6 @@
 import os
 
-TEXT = 'Visited Earth for two days: traffic is a religion, the Wi-Fi is a myth, and the locals pay to watch other locals eat. Two stars — would not abduct again.'
+TEXT = 'Earth review: the food is great, the gravity is rude, and the locals argue with rectangles for eight hours a day. Three stars — would orbit again.'
 
 def main():
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
